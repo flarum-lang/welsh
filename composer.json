@@ -1,26 +1,20 @@
 {
 	"name": "flarum-lang/welsh",
+	"description": "Welsh Language Pack for Flarum",
 	"type": "flarum-extension",
-	"description": "Welsh language pack for Flarum.",
-	"homepage": "https://github.com/flarum-lang/welsh",
 	"keywords": [
-		"locale",
-		"flarum",
-		"flarum-locale",
-		"cy-locale",
-		"welsh-locale",
-		"welsh"
+		"flarum-locale"
 	],
+	"homepage": "https://github.com/flarum-lang/welsh",
 	"license": "MIT",
 	"support": {
 		"issues": "https://github.com/flarum-lang/welsh/issues",
+		"forum": "https://discuss.flarum.org/d/40179",
 		"source": "https://github.com/flarum-lang/welsh"
 	},
 	"require": {
 		"flarum/core": "^2.0"
 	},
-	"minimum-stability": "dev",
-	"prefer-stable": true,
 	"extra": {
 		"flarum-extension": {
 			"title": "Welsh",
@@ -33,13 +27,7 @@
 		},
 		"flarum-locale": {
 			"code": "cy",
-			"title": "Welsh"
-		},
-		"extiverse": {
-			"discuss": ""
-		},
-		"branch-alias": {
-			"dev-master": "1.x-dev"
+			"title": "Cymraeg"
 		}
 	}
 }
